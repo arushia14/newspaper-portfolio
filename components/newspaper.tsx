@@ -87,7 +87,7 @@ export default function Newspaper() {
                 ersatile Software Engineer specializing in frontend, full-stack, and AI-driven applications. Passionate
                 about seamless user experiences, automation, and solving complex technical challenges.
               </p>
-              <div className="flex justify-center items-center gap-1 mt-4">
+              <div className="flex justify-center items-center mt-2">
                 <a
                   href="https://github.com/arushia14"
                   target="_blank"
