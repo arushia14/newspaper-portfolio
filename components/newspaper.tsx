@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Moon, Sun } from "lucide-react"
+import { Moon, Sun, Github, Linkedin } from "lucide-react"
 import { useTheme } from "next-themes"
 import { Button } from "@/components/ui/button"
 import ContactForm from "@/components/contact-form"
@@ -36,7 +36,7 @@ export default function Newspaper() {
         {/* Newspaper Header */}
         <div className="border-b-4 border-double border-gray-900 dark:border-gray-100 pb-4 mb-6">
           <div className="text-center">
-            <p className="text-sm mb-2 font-serif italic">Est. MMXXIV | {currentDate}</p>
+            <p className="text-sm font-serif italic mb-2">Est. MMXXIV | {currentDate}</p>
             <h1 className="font-old-english text-6xl sm:text-6xl font-black tracking-tight mb-2 leading-none">
               THE DEVELOPER CHRONICLE
             </h1>
@@ -87,6 +87,24 @@ export default function Newspaper() {
                 ersatile Software Engineer specializing in frontend, full-stack, and AI-driven applications. Passionate
                 about seamless user experiences, automation, and solving complex technical challenges.
               </p>
+              <div className="flex justify-center items-center gap-1 mt-4">
+                <a
+                  href="https://github.com/arushia14"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-900 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 transition-colors p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
+                >
+                  <Github className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://linkedin.com/in/arushia14"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-900 dark:text-gray-100 hover:text-gray-600 dark:hover:text-gray-300 transition-colors p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
+                >
+                  <Linkedin className="h-5 w-5" />
+                </a>
+              </div>
             </div>
 
             <div className="border-2 border-gray-900 dark:border-gray-100 p-4 bg-white dark:bg-gray-800">
@@ -119,7 +137,7 @@ export default function Newspaper() {
                     </h4>
                     <p className="italic mb-1 text-xs">Software Engineer</p>
                     <p className="leading-tight">
-                    At a fledgling pre-seed startup shrouded in stealth, she crafted the product’s entire frontend—from wireframes to polished designs in Figma—then brought it to life with a modular NextJS interface. Tightly coupled with backend APIs and websockets, her work powered key features like LLM responses and connectors. Working hand-in-hand with founders, she swiftly refined the MVP through user tests and investor demos.
+                    At a fledgling pre-seed startup shrouded in stealth, she crafted the product's entire frontend—from wireframes to polished designs in Figma—then brought it to life with a modular NextJS interface. Tightly coupled with backend APIs and websockets, her work powered key features like LLM responses and connectors. Working hand-in-hand with founders, she swiftly refined the MVP through user tests and investor demos.
                     </p>
                   </div>
 
