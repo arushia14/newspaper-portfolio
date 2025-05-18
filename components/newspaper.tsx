@@ -137,7 +137,7 @@ export default function Newspaper() {
                     </h4>
                     <p className="italic mb-1 text-xs">Software Engineer</p>
                     <p className="leading-tight">
-                    At a fledgling pre-seed startup shrouded in stealth, she crafted the product's entire frontend—from wireframes to polished designs in Figma—then brought it to life with a modular NextJS interface. Tightly coupled with backend APIs and websockets, her work powered key features like LLM responses and connectors. Working hand-in-hand with founders, she swiftly refined the MVP through user tests and investor demos.
+                    At a fledgling pre-seed startup shrouded in stealth, she crafted the product's entire frontend (from wireframes to polished designs in Figma) and then brought it to life with a modular NextJS interface. Tightly coupled with backend APIs and websockets, her work powered key features like LLM responses and connectors. Working hand-in-hand with founders, she swiftly refined the MVP through user tests and investor demos.
                     </p>
                   </div>
 
