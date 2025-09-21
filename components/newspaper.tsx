@@ -250,8 +250,7 @@ export default function Newspaper() {
                       An agent made in Python that specializes in Arushi's career journey and skills. 
                     </p>
                   </div>
-                
-                <div className="space-y-4 font-serif text-sm">
+                  
                   <div className="mb-3 pb-3 border-b border-gray-300 dark:border-gray-700">
                     <h4 className="text-base font-bold">
                       <a href="https://github.com/arushia14/eli5-chrome-extension" className="underline hover:text-gray-600 dark:hover:text-gray-300">
