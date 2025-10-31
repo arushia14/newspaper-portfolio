@@ -129,6 +129,22 @@ export default function Newspaper() {
                   <div className="break-inside-avoid-column mb-4">
                     <h4 className="text-base font-bold">
                       <a
+                        href="https://usestable.com"
+                        className="underline hover:text-gray-600 dark:hover:text-gray-300"
+                      >
+                        Stable
+                      </a>
+                    </h4>
+                    <p className="italic mb-1 text-xs">Software Engineer</p>
+                    <p className="leading-tight">
+                      In recent dispatches, Ms. Agarwal has joined Stable, where she is presently
+                      developing product with industrious zeal.
+                    </p>
+                  </div>
+
+                  <div className="break-inside-avoid-column mb-4">
+                    <h4 className="text-base font-bold">
+                      <a
                         href="#"
                         className="underline hover:text-gray-600 dark:hover:text-gray-300"
                       >
